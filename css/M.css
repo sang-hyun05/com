@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* 부모요소 초기화 */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+#container{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+#M_layout{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+#login, #logout{
+    float: right;
+}
+
+#login{
+    position: relative;
+    left: 60px;
+}

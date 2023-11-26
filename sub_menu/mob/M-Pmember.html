@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" type="text/css" href="./css/M-Mmember.css">
+</head>
+<body>
+    <div id="container">
+        <h1>회윈가입신청</h1>
+        <form action="" method="post" autocomplete="off">
+            <ul id="member">
+                <li>
+                    <label for="userid" class="field">아이디</label>
+                    <input type="text" id="userid" name="userid" autofocus placeholder="영문,숫자포함 8자이상"/>
+                </li>
+                <li>
+                    <label for="userpwd" class="field">비밀번호</label>
+                    <input type="password" id="userpwd" name="userpwd" placeholder="특수기호포함12자이상"/>
+                </li>
+                <li>
+                    <label for="userpwd2" class="field">비밀번호확인</label>
+                    <input type="password" id="userpwd2" name="user-pwd2" placeholder="특수기호포함12자이상"/>
+                </li>
+                <li>
+                    <label for="useremail" class="field">이메일</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="예)Korea@naver.com"/>
+                </li>
+                <li class="mailling">
+                    <label class="field">메일링수신</label>
+                    <label class="radio"><input type="radio" name="mailling">예</label>
+                    <label class="radio"><input type="radio" name="mailling">아니오</label>
+                </li>
+            </ul>
+            <ul class="btns">
+                <li class="btn1">
+                    <button type="submit" class="btn" id="submit">가입하기</button>
+                </li>
+                <li class="btn2">
+                    <button type="reset" class="btn" id="reset">가입취소</button>
+                </li>
+            </ul>
+            <!-- <h2>회원가입약관</h2>
+            <iframe src="./M-Pmember(약관).html" width="540px" height="250px" seamless></iframe> -->
+        </form>
+    </div>
+    <script src="./js/M-Mmember.js"></script>
+</body>
+</html>

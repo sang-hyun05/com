@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* 부모요소 초기화 */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* 웹 페이지 공통 초기화 */
+li{
+    list-style-type: none;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 400px;
+    height: auto;
+    border: 3px solid #ccc;
+    padding: 40px;
+}
+#container h1{
+    margin-bottom: 25px;
+}
+
+
+#member{
+    padding: 5px;
+}
+#member > li:nth-child(1){
+    border-top: 2px solid #c2c2c2;
+    padding-top: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    font-weight: 700;
+}
+label.radio{
+    width: auto;
+}
+li.mailling{
+    margin-top: 20px;
+}
+input{
+    margin-bottom: 7px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
+.btns{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #c2c2c2;
+    padding-top: 30px;
+}
+.btn1, .btn2{
+    display: inline-block;
+}
+.btn1{
+    margin-right: 10%;
+}
+.btn{
+    padding: 7px 12px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
